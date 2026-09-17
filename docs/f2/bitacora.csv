@@ -3,4 +3,4 @@ Conservar nacimientos,735611,No se eliminan filas por nulos de talla o por igual
 Seleccionar variables principales,6,Se conserva el original de 25 columnas y su perfil completo.
 Marcar invalidez técnica de talla,0,"No numérica, no finita o no positiva; conservar original."
 Conservar extremos estadísticos,24586,RIC no demuestra error de registro.
-Imputación propuesta,597,mediana_region; pendiente de aprobación del grupo.
+Imputación propuesta,597,mediana_region; aprobado por el grupo.
