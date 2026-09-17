@@ -1,0 +1,20 @@
+ruta,valor
+proyecto.grupo,2
+proyecto.periodo,2020–2023 acumulado
+ejecucion.fecha,2026-09-17
+ejecucion.python,3.13.15
+ejecucion.bibliotecas.pandas,2.2.3
+ejecucion.bibliotecas.numpy,2.1.3
+ejecucion.bibliotecas.matplotlib,3.10.0
+fuente.archivo,Serie_Nacimientos_2020_2023.csv
+fuente.sha256,ebe234095c74e13f5f6a2ebf9b11ccf9bc47eb78e85be5e31a45c35a3839c0de
+fuente.filas,735611
+fuente.columnas,25
+preparacion.metodo_propuesto,mediana_region
+preparacion.decision_grupo,por completar
+preparacion.imputados,597
+preparacion.filas_iguales_adicionales,8105
+pendientes.fecha_descarga,por completar
+pendientes.licencia,por completar
+pendientes.validacion_docente_transformaciones,por completar
+pendientes.revision_equipo,por completar
