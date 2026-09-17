@@ -1,8 +1,8 @@
 criterio,estado
-Al menos 2.000 filas,por completar
-Al menos 12 columnas,por completar
-Alguna variable con al menos 1 % de nulos,por completar
-Ninguna variable con más de 60 % de nulos,por completar
+Al menos 2.000 filas,cumple
+Al menos 12 columnas,cumple
+Alguna variable con al menos 1 % de nulos,cumple
+Ninguna variable con más de 60 % de nulos,cumple
 Numérica discreta,identificada: CURSO_PADRE y CURSO_MADRE; verificar códigos en F2
 Dos nominales y una ordinal o binaria,"identificadas: región, sexo y grupo etario"
 Dos numéricas continuas,por completar: TALLA y criterio aplicado a SEMANAS; peso agrupado
