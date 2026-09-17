@@ -1,0 +1,10 @@
+criterio,estado
+Al menos 2.000 filas,por completar
+Al menos 12 columnas,por completar
+Alguna variable con al menos 1 % de nulos,por completar
+Ninguna variable con más de 60 % de nulos,por completar
+Numérica discreta,identificada: CURSO_PADRE y CURSO_MADRE; verificar códigos en F2
+Dos nominales y una ordinal o binaria,"identificadas: región, sexo y grupo etario"
+Dos numéricas continuas,por completar: TALLA y criterio aplicado a SEMANAS; peso agrupado
+Fecha,"por completar: confirmar suficiencia de año y mes, sin día"
+Texto o alta cardinalidad,"por completar: confirmar aceptación de glosa regional, 16 categorías"

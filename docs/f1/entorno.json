@@ -1,0 +1,15 @@
+{
+  "python": "3.13.15",
+  "interprete": "C:\\unab\\proyecto1\\.venv\\Scripts\\python.exe",
+  "sistema": "Windows",
+  "entorno_virtual_detectado": true,
+  "versiones": {
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "ipykernel": "7.3.0",
+    "jupyterlab": null
+  },
+  "confirmacion_kernel_equipo": "por completar: confirmar el entorno acordado y reproducir con otro integrante",
+  "fecha_ejecucion": "2026-09-16"
+}

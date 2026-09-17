@@ -1,0 +1,51 @@
+{
+  "titulo": "Nacimientos en Chile entre 2020 y 2023",
+  "grupo": "Grupo 2",
+  "asignatura": "MCDI500",
+  "integrantes": [
+    "Cristian Hurtado",
+    "Jorge Altamirano",
+    "Renzo Vilchez"
+  ],
+  "repositorio": "https://github.com/jorgealtamiranonavarrete-art/proyecto-grupo2",
+  "problematica": "Describir diferencias regionales en maternidad adolescente y talla al nacer, y diferencias mensuales en la frecuencia diaria de nacimientos.",
+  "objetivo_general": "Describir la proporción regional de nacidos vivos de madres menores de 20 años, la distribución mensual del promedio diario de nacimientos y la talla media regional en el período acumulado 2020–2023 mediante un flujo reproducible.",
+  "objetivos_especificos": [
+    "Definir preguntas, indicadores, alcance y fuente en F1.",
+    "Verificar el entorno y documentar la estructura del repositorio en F1.",
+    "Diagnosticar y preparar los datos en F2, evaluando el tratamiento de los faltantes de talla.",
+    "Calcular y comparar los tres indicadores descriptivos en la fase de análisis.",
+    "Comunicar los resultados y conservar evidencia de las contribuciones del equipo."
+  ],
+  "preguntas": [
+    "¿Qué regiones de residencia materna presentan mayor y menor porcentaje de nacidos vivos de madres menores de 20 años durante 2020–2023?",
+    "¿Qué meses del calendario presentan mayor y menor promedio diario de nacimientos durante 2020–2023, considerando todas las edades maternas?",
+    "¿Qué regiones de residencia materna presentan mayor y menor talla promedio de los recién nacidos durante 2020–2023, considerando todas las edades maternas?"
+  ],
+  "criterios_exito": [
+    "F1 y F2 pueden ejecutarse en el entorno documentado desde un kernel reiniciado.",
+    "Las decisiones de preparación se justifican con conteos y comparaciones.",
+    "Los tres integrantes mantienen contribuciones propias trazables en Git.",
+    "Los indicadores usan el período completo y denominadores documentados."
+  ],
+  "alcance_f1": {
+    "incluye": [
+      "Definición del proyecto",
+      "Documentación y reconocimiento de la fuente",
+      "Entorno, estructura y validación técnica"
+    ],
+    "excluye": [
+      "Limpieza e imputación",
+      "Transformación de observaciones",
+      "Cálculo de resultados finales"
+    ]
+  },
+  "limitaciones": [
+    "Los datos describen nacidos vivos registrados, no todos los embarazos.",
+    "No hay identificador de madre o parto para contar eventos únicos.",
+    "La región es la residencia de la madre, no necesariamente el lugar del nacimiento.",
+    "El diseño es descriptivo, sin inferencia causal ni predicción.",
+    "La imputación de talla puede modificar medias y reducir la variabilidad.",
+    "La cobertura y el cierre del registro condicionan los resultados."
+  ]
+}

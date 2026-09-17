@@ -1,0 +1,26 @@
+variable,rol,descripcion,uso
+MES_NAC,temporal,Mes de nacimiento,P2
+ANO_NAC,temporal,Año de nacimiento,"P1, P2, P3"
+SEXO,nominal,Sexo registrado del nacido vivo,Contexto
+TIPO_PARTO,nominal,Tipo de parto según código,Contexto
+TIPO_ATEN,nominal,Profesional o tipo de atención,Contexto
+PARTO_LOCAL,nominal,Lugar del nacimiento,Contexto
+SEMANAS,duración registrada en semanas,Semanas de gestación,Contexto
+RANGO_PESO,ordinal,"Intervalo de peso, no peso exacto",Contexto
+TALLA,cuantitativa continua,Talla al nacer en centímetros,P3
+GRUPO_ETARIO_PADRE,ordinal,Intervalo de edad paterna,Contexto
+CURSO_PADRE,discreta,Último curso de instrucción del padre,Contexto
+NIVEL_PADRE,categoría educativa,Nivel educacional del padre; revisar orden de códigos,Calidad de la base
+ACTIV_PADRE,nominal,Actividad del padre,Calidad de la base
+OCUPA_PADRE,nominal,Ocupación paterna condicionada a actividad,Contexto
+CATEG_PADRE,nominal,Categoría ocupacional paterna,Contexto
+GRUPO_ETARIO_MADRE,ordinal,Intervalo de edad materna,P1
+EST_CIV_MADRE,nominal,Estado civil materno,Contexto
+CURSO_MADRE,discreta,Último curso de instrucción de la madre,Contexto
+NIVEL_MADRE,categoría educativa,Nivel educacional materno; revisar orden de códigos,Contexto
+ACTIV_MADRE,nominal,Actividad materna,Contexto
+OCUPA_MADRE,nominal,Ocupación materna condicionada a actividad,Contexto
+CATEG_MADRE,nominal,Categoría ocupacional materna,Contexto
+NACIONALIDAD_MADRE,nominal,Categoría de nacionalidad materna,Contexto
+REGION_RESIDENCIA,nominal,Código regional de residencia de la madre,"P1, P3"
+GLOSA_REGION_RESIDENCIA,nominal,Nombre regional de residencia de la madre,"P1, P3"

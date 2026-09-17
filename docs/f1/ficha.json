@@ -1,0 +1,21 @@
+{
+  "titulo": "Serie de nacimientos 2020–2023",
+  "fuente": "DEIS / Ministerio de Salud de Chile",
+  "url": "https://deis.minsal.cl/#datosabiertos",
+  "archivo": "Serie_Nacimientos_2020_2023.csv",
+  "separador": ";",
+  "codificacion": "utf-8",
+  "unidad_observacion": "Un nacido vivo inscrito",
+  "periodo": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "filas_referencia": 735611,
+  "columnas_referencia": 25,
+  "talla_nulos_referencia": 597,
+  "fecha_descarga": "15 de septiembre de 2026",
+  "version_publicada_o_url_directa": "Datos Abiertos DEIS (Natalidad)",
+  "licencia": "Datos públicos Abiertos (Ley N° 20.285 sobre Acceso a la Información Pública)"
+}
