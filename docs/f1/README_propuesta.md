@@ -13,7 +13,7 @@ La ficha Excel es documentación complementaria. Condiciones de reutilización: 
 ## Ejecución
 Crear un entorno del proyecto e instalar las dependencias acordadas en requirements.txt.
 Seleccionar ese kernel en VS Code. Ejecutar primero F1/notebooks/F1_Definicion.ipynb.
-F2: por completar. Python propuesto: 3.13; versión observada: 3.13.5.
+F2: por completar. Python propuesto: 3.13; versión observada: 3.13.15.
 Las versiones detectadas están en docs/f1/dependencias_observadas.txt y deben revisarse antes de integrarse.
 
 ## Estructura

@@ -1,0 +1,9 @@
+concepto,ubicacion,evidencia_o_estado
+Problema e indicadores,Sección 1,Definición y tres preguntas
+Fuente y población,Sección 5,"Ficha, diccionario y reconocimiento si existe el CSV"
+Entorno reproducible,Sección 2,Versiones observadas; reproducción del equipo por completar
+Estructura y documentación,Secciones 3 y 9,Rutas y documentos propios de F1
+Módulos y validación,Secciones 4 y 7,Funciones y comprobaciones ejecutables
+Git y revisión,Sección 6,Consultas locales; PR y revisión por completar
+Preparación de talla,F2 pendiente,"Comparar sin imputar, mediana general y mediana por región"
+Análisis y comunicación,Fases posteriores,Tablas y gráficos de los tres indicadores pendientes
