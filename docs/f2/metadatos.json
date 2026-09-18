@@ -1,0 +1,33 @@
+{
+  "proyecto": {
+    "grupo": 2,
+    "periodo": "2020–2023 acumulado"
+  },
+  "ejecucion": {
+    "fecha": "2026-09-18",
+    "python": "3.13.5",
+    "bibliotecas": {
+      "pandas": "3.0.5",
+      "numpy": "2.5.3",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "fuente": {
+    "archivo": "Serie_Nacimientos_2020_2023.csv",
+    "sha256": "ebe234095c74e13f5f6a2ebf9b11ccf9bc47eb78e85be5e31a45c35a3839c0de",
+    "filas": 735611,
+    "columnas": 25
+  },
+  "preparacion": {
+    "metodo_propuesto": "mediana_region",
+    "decision_grupo": "por completar",
+    "imputados": 597,
+    "filas_iguales_adicionales": 8105
+  },
+  "pendientes": {
+    "fecha_descarga": "por completar",
+    "licencia": "por completar",
+    "validacion_docente_transformaciones": "por completar",
+    "revision_equipo": "por completar"
+  }
+}

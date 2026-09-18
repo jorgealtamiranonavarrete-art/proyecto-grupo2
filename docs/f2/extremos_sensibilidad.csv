@@ -1,0 +1,9 @@
+metodo,extremo,regiones,media_cm
+media_general,menor,De Antofagasta,48.6163632364443
+media_general,mayor,De Arica y Parinacota,49.326508282956326
+mediana_general,menor,De Antofagasta,48.616455563697265
+mediana_general,mayor,De Arica y Parinacota,49.32655082380481
+mediana_region,menor,De Antofagasta,48.616455563697265
+mediana_region,mayor,De Arica y Parinacota,49.327000990366436
+sin_imputar,menor,De Antofagasta,48.61608047221543
+sin_imputar,mayor,De Arica y Parinacota,49.32669789227166
