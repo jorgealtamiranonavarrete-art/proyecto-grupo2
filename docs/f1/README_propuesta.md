@@ -1,5 +1,5 @@
 # Nacimientos en Chile entre 2020 y 2023
-Grupo 2: Cristian Hurtado, Jorge Altamirano, Renzo Vilchez.
+Grupo 2: Cristian Hurtado, Jorge Altamirano, Renzo Vilchez, Luis Paredes.
 Repositorio: https://github.com/jorgealtamiranonavarrete-art/proyecto-grupo2
 
 ## Alcance
