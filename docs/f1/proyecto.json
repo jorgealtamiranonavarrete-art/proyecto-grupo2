@@ -48,5 +48,11 @@
     "El diseño es descriptivo, sin inferencia causal ni predicción.",
     "La imputación de talla puede modificar medias y reducir la variabilidad.",
     "La cobertura y el cierre del registro condicionan los resultados."
+  ],
+  "supuestos": [
+    "Se asume que cada fila representa un nacido vivo distinto. La coincidencia de atributos entre registros no se considera evidencia suficiente de duplicación, por lo que estas filas se conservan.",
+    "El análisis acumulado de 2020 a 2023 supone que las variables utilizadas mantienen definiciones, categorías y unidades comparables durante el período. Los cambios de codificación o de cobertura podrían afectar las comparaciones.",
+    "Se asume que la región de residencia y el grupo etario de la madre registrados en la fuente permiten clasificar correctamente los nacimientos. Las validaciones de códigos detectan valores fuera de los dominios previstos, pero no comprueban la exactitud de cada registro.",
+    "El cálculo del promedio diario supone que los registros de cada mes corresponden a la cobertura del mes completo. Por ello, el denominador utiliza todos sus días calendario. Una cobertura incompleta reduciría el promedio calculado, aunque no existiera una disminución real de nacimientos."
   ]
 }
