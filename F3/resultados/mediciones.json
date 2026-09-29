@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-09-28",
+  "versiones": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "scikit-learn": "1.6.1"
+  },
+  "filas": 735611,
+  "indicador": {
+    "bucle_s": 0.1451179999858141,
+    "groupby_s": 0.010318199987523258,
+    "equivalencia": true
+  },
+  "lectura": {
+    "completa_s": 0.6949942000210285,
+    "selectiva_s": 0.4566472999867983,
+    "completa_mb": 408.08171558380127,
+    "selectiva_mb": 127.29532623291016,
+    "equivalencia": true
+  },
+  "codificacion": {
+    "categorias_entrenamiento": 16,
+    "mismo_esquema": true
+  }
+}
