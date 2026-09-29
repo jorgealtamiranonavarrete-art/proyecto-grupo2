@@ -31,8 +31,8 @@ Ambas implementaciones producen exactamente los mismos conteos regionales. Los t
 
 La separación entre módulo y notebook evita duplicar lógica al continuar el proyecto. La recursión se aplica a los metadatos reales de la medición, anidados a profundidad variable, no a las filas. En una fase posterior, el codificador puede encapsularse como un componente con estado que exponga `fit` y `transform`, mientras lectura, cálculo, validación y visualización permanecen separados. Este avance no introduce una clase por obligación: las operaciones de cálculo y medición son funciones independientes.
 
-Las mediciones y la aplicación de recursividad proporcionan ejemplos para responder la Formativa 2 sobre diseño algorítmico. A la fecha de esta revisión el grupo todavía no había publicado allí una intervención; el notebook no atribuye argumentos de foro que no se hayan presentado.
+En su intervención inicial en la Formativa 2 (29 de septiembre de 2026), Cristian Hurtado Cabezas justificó la agrupación o iteración para los 735.611 registros y la recursividad para aplanar metadatos anidados. También propuso comparar alternativas solo después de verificar resultados equivalentes y medir tiempo y memoria. El notebook aplica esos criterios; sus cifras corresponden a la ejecución registrada en `resultados/mediciones.json` y pueden diferir de las publicadas en el foro.
 
 ## Fuentes
 
-Las referencias APA y sus citas en contexto están en el notebook y en el informe `f3_s02_grupo2.pdf`. Incluyen dos materiales docentes, documentación oficial de Python, pandas y scikit-learn, y el artículo de Pedregosa et al. (2011).
+Las referencias APA y sus citas en contexto están en el notebook y en el informe editable `f3_s02_grupo2.docx`. Incluyen dos materiales docentes, documentación oficial de Python, pandas y scikit-learn, y el artículo de Pedregosa et al. (2011). El PDF de entrega se exporta desde Word después de la revisión final del equipo.
