@@ -1,0 +1,174 @@
+{
+  "fecha": "2026-09-29",
+  "versiones": {
+    "python": "3.13.5",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0"
+  },
+  "entrada": {
+    "filas": 735611,
+    "tallas_ausentes": 597
+  },
+  "verificaciones": {
+    "cuatro_escenarios_iguales_a_f2": true,
+    "casos_limite_y_error": 8,
+    "indicador_igual_en_tres_tamanos": true
+  },
+  "estrategias": {
+    "sin_imputar": {},
+    "media_general": {
+      "valor_cm": 48.90549975918826
+    },
+    "mediana_general": {
+      "valor_cm": 49.0
+    },
+    "mediana_region": {
+      "medianas_por_region_cm": {
+        "1": 49.0,
+        "2": 49.0,
+        "3": 49.0,
+        "4": 49.0,
+        "5": 49.0,
+        "6": 49.0,
+        "7": 49.0,
+        "8": 50.0,
+        "9": 49.0,
+        "10": 49.0,
+        "11": 49.0,
+        "12": 49.0,
+        "13": 49.0,
+        "14": 49.0,
+        "15": 50.0,
+        "16": 49.0
+      },
+      "respaldo_general_cm": 49.0
+    }
+  },
+  "evidencia_f2": {
+    "validaciones": 5,
+    "sha256_original": "ebe234095c74e13f5f6a2ebf9b11ccf9bc47eb78e85be5e31a45c35a3839c0de",
+    "decision_grupo": "mediana regional aprobada por el grupo"
+  },
+  "codificacion": {
+    "categorias_entrenamiento": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "columnas": [
+      "REGION_RESIDENCIA_1",
+      "REGION_RESIDENCIA_10",
+      "REGION_RESIDENCIA_11",
+      "REGION_RESIDENCIA_12",
+      "REGION_RESIDENCIA_13",
+      "REGION_RESIDENCIA_14",
+      "REGION_RESIDENCIA_15",
+      "REGION_RESIDENCIA_16",
+      "REGION_RESIDENCIA_2",
+      "REGION_RESIDENCIA_3",
+      "REGION_RESIDENCIA_4",
+      "REGION_RESIDENCIA_5",
+      "REGION_RESIDENCIA_6",
+      "REGION_RESIDENCIA_7",
+      "REGION_RESIDENCIA_8",
+      "REGION_RESIDENCIA_9"
+    ],
+    "filas_entrenamiento": 588488,
+    "filas_prueba": 147123,
+    "misma_estructura": true
+  },
+  "benchmark": [
+    {
+      "filas": 10000,
+      "metodo": "bucle",
+      "tiempo_min_s": 0.002694099999644095,
+      "tiempos_s": [
+        0.002694099999644095,
+        0.002723199999309145,
+        0.0026942000004055444
+      ],
+      "memoria_entrada_mb": 0.08595657348632812,
+      "memoria_salida_mb": 0.000614166259765625,
+      "pico_python_mb": 0.016206741333007812
+    },
+    {
+      "filas": 10000,
+      "metodo": "groupby",
+      "tiempo_min_s": 0.0008422999999311287,
+      "tiempos_s": [
+        0.00097989999994752,
+        0.0008555999993404839,
+        0.0008422999999311287
+      ],
+      "memoria_entrada_mb": 0.08595657348632812,
+      "memoria_salida_mb": 0.000614166259765625,
+      "pico_python_mb": 0.3387317657470703
+    },
+    {
+      "filas": 100000,
+      "metodo": "bucle",
+      "tiempo_min_s": 0.020462000000406988,
+      "tiempos_s": [
+        0.021833199996763142,
+        0.020707499999844003,
+        0.020462000000406988
+      ],
+      "memoria_entrada_mb": 0.8584327697753906,
+      "memoria_salida_mb": 0.000614166259765625,
+      "pico_python_mb": 0.15758991241455078
+    },
+    {
+      "filas": 100000,
+      "metodo": "groupby",
+      "tiempo_min_s": 0.0017797000000427943,
+      "tiempos_s": [
+        0.0018617999994603451,
+        0.001799500001652632,
+        0.0017797000000427943
+      ],
+      "memoria_entrada_mb": 0.8584327697753906,
+      "memoria_salida_mb": 0.000614166259765625,
+      "pico_python_mb": 2.7885990142822266
+    },
+    {
+      "filas": 735611,
+      "metodo": "bucle",
+      "tiempo_min_s": 0.14202409999779775,
+      "tiempos_s": [
+        0.15022250000038184,
+        0.14202409999779775,
+        0.1438330999990285
+      ],
+      "memoria_entrada_mb": 6.313925743103027,
+      "memoria_salida_mb": 0.000614166259765625,
+      "pico_python_mb": 0.016786575317382812
+    },
+    {
+      "filas": 735611,
+      "metodo": "groupby",
+      "tiempo_min_s": 0.009194700000080047,
+      "tiempos_s": [
+        0.009895999999571359,
+        0.009194700000080047,
+        0.009374999997817213
+      ],
+      "memoria_entrada_mb": 6.313925743103027,
+      "memoria_salida_mb": 0.000614166259765625,
+      "pico_python_mb": 21.747957229614258
+    }
+  ]
+}

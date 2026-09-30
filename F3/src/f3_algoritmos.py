@@ -1,8 +1,10 @@
-"""Prototipos de F3: lectura, indicador regional y mediciones reproducibles."""
+"""Lectura, indicador regional y mediciones reproducibles para F3."""
 
 from __future__ import annotations
 
 from pathlib import Path
+import gc
+import tracemalloc
 from time import perf_counter
 from typing import Callable
 
@@ -57,6 +59,33 @@ def proporcion_groupby(datos: pd.DataFrame) -> pd.DataFrame:
     return salida
 
 
+class AnalizadorNacimientos:
+    """Agrupa la lectura preparada y los dos cálculos del indicador regional.
+
+    Las funciones independientes siguen disponibles para medir subconjuntos y
+    para que otros notebooks puedan reutilizarlas sin crear un objeto.
+    """
+
+    def __init__(self, ruta_archivo: str | Path) -> None:
+        self.ruta_archivo = Path(ruta_archivo)
+        self._datos: pd.DataFrame | None = None
+
+    def cargar_preparado(self) -> pd.DataFrame:
+        self._datos = cargar_preparado(self.ruta_archivo)
+        return self._datos
+
+    def _datos_cargados(self) -> pd.DataFrame:
+        if self._datos is None:
+            raise ValueError("Primero debe cargar los datos preparados.")
+        return self._datos
+
+    def proporcion_bucle(self) -> pd.DataFrame:
+        return proporcion_bucle(self._datos_cargados())
+
+    def proporcion_groupby(self) -> pd.DataFrame:
+        return proporcion_groupby(self._datos_cargados())
+
+
 def medir_tiempos(funcion: Callable[[], object], repeticiones: int = 3) -> list[float]:
     """Repite una operación y devuelve cada duración en segundos."""
     if repeticiones < 1:
@@ -72,3 +101,19 @@ def medir_tiempos(funcion: Callable[[], object], repeticiones: int = 3) -> list[
 def leer_original(ruta: str | Path, columnas: list[str] | None = None) -> pd.DataFrame:
     """Lee el CSV original completo o un subconjunto, sin modificarlo."""
     return pd.read_csv(ruta, sep=";", encoding="utf-8", usecols=columnas, low_memory=False)
+
+
+def medir_memoria_pico(funcion: Callable[[], object]) -> tuple[object, int]:
+    """Devuelve el resultado y el pico de asignaciones que rastrea tracemalloc.
+
+    Se mide aparte del tiempo porque el rastreador altera la velocidad. El pico
+    no equivale a la memoria total del proceso ni incluye toda la memoria nativa.
+    """
+    gc.collect()
+    tracemalloc.start()
+    try:
+        resultado = funcion()
+        _, pico_bytes = tracemalloc.get_traced_memory()
+    finally:
+        tracemalloc.stop()
+    return resultado, pico_bytes
