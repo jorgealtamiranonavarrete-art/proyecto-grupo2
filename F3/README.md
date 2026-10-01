@@ -2,6 +2,8 @@
 
 Este directorio contiene el avance formativo y la Sumativa 2 del Grupo 2 para MCDI500. El cuaderno [`F3_Avance_Semana2.ipynb`](F3_Avance_Semana2.ipynb) compara dos implementaciones del indicador regional y dos formas de leer el CSV original, y muestra una codificación one-hot aprendida solo con entrenamiento. [`F3_Nucleo_Algoritmico.ipynb`](F3_Nucleo_Algoritmico.ipynb) amplía ese avance con clases, pruebas y mediciones en varios tamaños.
 
+**Qué archivo corresponde a cada entrega.** La **Formativa 3** utiliza `F3_Avance_Semana2.ipynb`; su informe editable es `f3_s02_grupo2.docx` y el archivo para Canvas es `f3_s02_grupo2.pdf`. La **Sumativa 2** utiliza `F3_Nucleo_Algoritmico.ipynb`; su informe editable es `f3_s02_grupo2_sum.docx` y el archivo para Canvas es `f3_s02_grupo2_sum.pdf`. Los notebooks y sus módulos permanecen en el repositorio como evidencia ejecutable; los PDF corresponden a las entregas escritas.
+
 ## Archivos y responsabilidades
 
 | Archivo | Función |
@@ -44,8 +46,8 @@ La clase abstracta `EstrategiaTalla` define los métodos `ajustar` y `transforma
 
 El benchmark compara `proporcion_bucle` y `proporcion_groupby` en 10.000, 100.000 y 735.611 filas con tres repeticiones por combinación. Primero comprueba resultados iguales y después mide. Los tiempos varían entre equipos; `resultados/sumativa2_verificacion.json` guarda cada repetición, versiones y parámetros. El cuaderno mide por separado el tamaño de entrada y salida y el pico de asignaciones rastreadas por `tracemalloc`. Este último no incluye toda la memoria nativa de pandas ni equivale al máximo del proceso. La función recursiva `aplanar` de F2 registra estos metadatos sin aplicar recursión a las filas.
 
-El informe editable de la Sumativa 2 es `f3_s02_grupo2_sum.docx`; el avance formativo conserva su propio Word. El PDF de la sumativa se exporta desde ese Word al cerrar la revisión del equipo.
+El historial de Git incluye el merge `2f8f42d` del 18 de septiembre, registrado con la identidad «HR Informática» (cuenta HardyRojas). Esa identidad no corresponde a un integrante del Grupo 2 y el equipo no le atribuye los análisis del proyecto. Se conserva la atribución histórica del merge; `.mailmap` normaliza únicamente los nombres de los cuatro integrantes.
 
 ## Fuentes
 
-Las referencias APA y sus citas en contexto están en los notebooks y en los informes editables. La Sumativa 2 incorpora documentación oficial de Python y pandas y el artículo reciente de Thimbleby (2024) sobre verificación de código científico, además del material del curso. El PDF de entrega se exporta desde Word después de la revisión final del equipo.
+Las referencias APA y sus citas en contexto están en los notebooks y en los informes editables. La Sumativa 2 incorpora documentación oficial de Python y pandas y el artículo reciente de Thimbleby (2024) sobre verificación de código científico, además del material del curso. Los PDF versionados corresponden a las copias de entrega de cada informe.
