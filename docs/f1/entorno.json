@@ -1,5 +1,5 @@
 {
-  "python": "3.13.5",
+  "python": "3.13.15",
   "interprete": "python.exe",
   "sistema": "Windows",
   "entorno_virtual_detectado": true,
@@ -11,5 +11,5 @@
     "jupyterlab": "4.6.4"
   },
   "confirmacion_kernel_equipo": "Entorno local verificado; reproducción por otro integrante pendiente",
-  "fecha_ejecucion": "2026-09-29"
+  "fecha_ejecucion": "2026-10-02"
 }

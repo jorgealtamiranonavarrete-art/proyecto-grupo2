@@ -1,8 +1,8 @@
 ruta,valor
 proyecto.grupo,2
 proyecto.periodo,2020–2023 acumulado
-ejecucion.fecha,2026-09-29
-ejecucion.python,3.13.5
+ejecucion.fecha,2026-10-02
+ejecucion.python,3.13.15
 ejecucion.bibliotecas.pandas,3.0.5
 ejecucion.bibliotecas.numpy,2.5.2
 ejecucion.bibliotecas.matplotlib,3.11.1
