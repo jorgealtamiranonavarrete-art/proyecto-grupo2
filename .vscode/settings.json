@@ -2,5 +2,6 @@
   "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
   "python-envs.workspaceSearchPaths": [
     "./.venv"
-  ]
+  ],
+  "python.analysis.extraPaths": ["./F3/src", "./src", "./F4/src"]
 }

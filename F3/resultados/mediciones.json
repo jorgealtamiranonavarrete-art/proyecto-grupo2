@@ -1,20 +1,20 @@
 {
-  "fecha": "2026-09-29",
+  "fecha": "2026-10-02",
   "versiones": {
-    "python": "3.13.5",
+    "python": "3.13.15",
     "pandas": "3.0.5",
     "numpy": "2.5.2",
     "scikit-learn": "1.9.0"
   },
   "filas": 735611,
   "indicador": {
-    "bucle_s": 0.1422759999986738,
-    "groupby_s": 0.00896880000072997,
+    "bucle_s": 0.16540789999999106,
+    "groupby_s": 0.014523699879646301,
     "equivalencia": true
   },
   "lectura": {
-    "completa_s": 0.9709709999988263,
-    "selectiva_s": 0.544984399999521,
+    "completa_s": 1.3042330001480877,
+    "selectiva_s": 0.7747011999599636,
     "completa_mb": 408.08171558380127,
     "selectiva_mb": 127.29532623291016,
     "equivalencia": true
