@@ -26,7 +26,7 @@
   "criterios_exito": [
     "F1 y F2 pueden ejecutarse en el entorno documentado desde un kernel reiniciado.",
     "Las decisiones de preparación se justifican con conteos y comparaciones.",
-    "Los tres integrantes mantienen contribuciones propias trazables en Git.",
+    "Los cuatro integrantes mantienen contribuciones propias trazables en Git.",
     "Los indicadores usan el período completo y denominadores documentados."
   ],
   "alcance_f1": {

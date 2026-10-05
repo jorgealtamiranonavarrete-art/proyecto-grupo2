@@ -4,8 +4,8 @@
     "periodo": "2020–2023 acumulado"
   },
   "ejecucion": {
-    "fecha": "2026-10-02",
-    "python": "3.13.15",
+    "fecha": "2026-10-04",
+    "python": "3.13.5",
     "bibliotecas": {
       "pandas": "3.0.5",
       "numpy": "2.5.2",
@@ -27,7 +27,7 @@
     "imputados": 597,
     "filas_iguales_adicionales": 8105
   },
-  "pendientes": {
-    "revision_equipo": "pendiente"
+  "verificaciones": {
+    "revision_equipo": "ejecución cruzada confirmada por Renzo"
   }
 }

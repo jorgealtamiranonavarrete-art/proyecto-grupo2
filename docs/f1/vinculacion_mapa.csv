@@ -1,9 +1,8 @@
 concepto,ubicacion,evidencia_o_estado
-Problema e indicadores,Sección 1,Definición y tres preguntas
-Fuente y población,Sección 5,"Ficha, diccionario y reconocimiento si existe el CSV"
-Entorno reproducible,Sección 2,Versiones observadas; reproducción del equipo por completar
-Estructura y documentación,Secciones 3 y 9,Rutas y documentos propios de F1
-Módulos y validación,Secciones 4 y 7,Funciones y comprobaciones ejecutables
-Git y revisión,Sección 6,Consultas locales; PR y revisión por completar
-Preparación de talla,F2 pendiente,"Comparar sin imputar, mediana general y mediana por región"
-Análisis y comunicación,Fases posteriores,Tablas y gráficos de los tres indicadores pendientes
+Problema e indicadores,"F1, sección 1",Tres preguntas y denominadores definidos
+Fuente y población,"F1, sección 5","Ficha, diccionario y CSV original reconocido"
+Entorno reproducible,"F1, sección 2",Versiones registradas y reproducción cruzada confirmada por Renzo
+Estructura y documentación,"F1, sección 9",Módulo y documentos generados en docs/f1
+Git y revisión,Historial del repositorio,"Ramas, pull requests y commits de los cuatro integrantes"
+Preparación de talla,F2,Cuatro escenarios comparados; mediana regional aprobada
+Análisis y comunicación,F4,"Tablas, figuras y resultados de las tres preguntas"
