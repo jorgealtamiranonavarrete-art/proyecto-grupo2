@@ -1,6 +1,6 @@
 {
   "integridad_f1": "verificada",
   "archivo_disponible": true,
-  "entrega_completa": false,
-  "motivo": "Revisar lista de pendientes y reproducir en el entorno del equipo."
+  "entrega_completa": true,
+  "alcance": "F1 documentada con limitaciones de la fuente explícitas; no se acreditan criterios que el CSV no cumple."
 }

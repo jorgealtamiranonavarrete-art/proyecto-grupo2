@@ -5,4 +5,5 @@ __pycache__/
 .DS_Store
 
 data/raw/*.csv
+!data/raw/Serie_Nacimientos_2020_2023.csv
 data/processed/*.csv

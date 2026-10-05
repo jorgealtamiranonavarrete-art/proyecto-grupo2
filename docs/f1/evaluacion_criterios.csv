@@ -3,8 +3,8 @@ Al menos 2.000 filas,cumple
 Al menos 12 columnas,cumple
 Alguna variable con al menos 1 % de nulos,cumple
 Ninguna variable con más de 60 % de nulos,cumple
-Numérica discreta,identificada: CURSO_PADRE y CURSO_MADRE; verificar códigos en F2
+Numérica discreta,identificadas: CURSO_PADRE y CURSO_MADRE; sus códigos se diagnostican en F2
 Dos nominales y una ordinal o binaria,"identificadas: región, sexo y grupo etario"
-Dos numéricas continuas,por completar: TALLA y criterio aplicado a SEMANAS; peso agrupado
-Fecha,"por completar: confirmar suficiencia de año y mes, sin día"
-Texto o alta cardinalidad,"por completar: confirmar aceptación de glosa regional, 16 categorías"
+Dos numéricas continuas,"no se acreditan dos: TALLA es continua, SEMANAS está en enteros y el peso agrupado"
+Fecha,limitación: año y mes sin fecha diaria; suficientes para el promedio mensual
+Texto o alta cardinalidad,glosa regional de texto con 16 categorías; no se declara alta cardinalidad
